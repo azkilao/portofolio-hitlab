@@ -3,9 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>github project</title>
+    <title>Portofolio Cantika</title>
 </head>
 <body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Portofolio Pribadi</h1>
+
+        <!-- NAVIGATION -->
+        <nav>
+            <a href="home">Home</a>
+            <a href="about">About</a>
+            <a href="skills">Skills</a>
+            <a href="contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section id="home">
+            <h2>Hallo Saya Cantika!</h2>
+            <p>Saya merupakan mahasiswa semester 1 UIN Jakarta prodi Sistem Informasi</p>
+
+            <img src="foto-profil.jpeg" alt="Foto Profil Cantika" width="200">
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Halo! Nama saya Cantika. Saya adalah peserta Tech Class Web Dev 2026 yang sedang belajar mengembangkan kemampuan di bidang teknologi, khususnya dalam pembuatan website.
+            Saya memiliki motivasi untuk terus belajar, mencoba hal baru, dan mengembangkan kreativitas di dunia digital.</p>
+        </section>
+
+        <!-- SKIILS SECTION -->
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <table>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Skills</th>
+                    <th>Tingkat Kemahiran</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>HTML</th>
+                    <th>Basic</th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th>Figma</th>
+                    <th>Intermediate</th>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th>Blender</th>
+                    <th>Basic</th>
+                </tr>
+            </table>
+        </section>
+
+        <!-- CONTACT SECTION-->
+        <section>
+            <h2>Contact Me</h2>
+
+            <form action="">
+                <label for="nama">Nama:</label><br>
+                <input type="text" id="nama"
+                name="nama" placeholder="Masukkan nama anda" required>
+                <br><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email"
+                name="email" placeholder="Masukkan email anda" required>
+                <br><br>
+
+                <label for="pesan">Pesan</label><br>
+                <textarea name="pesan" id="pesan"
+                rows="5" placeholder="Masukkan pesan anda" required></textarea>
+                <br><br>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Cantika. All Rights Reserved</p>
+    </footer>
+    
     <h1>Hello World, saya Cantika, Peserta Tech Class Web Dev 2026!</h1> 
 </body>
 </html>
